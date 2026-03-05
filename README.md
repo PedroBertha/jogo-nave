@@ -118,7 +118,6 @@ jogo-nave/
 **Pedro Henrique Likoski Bertha**
 **Guilherme Possenti**
 
-* GitHub: https://github.com/PedroBertha
 * Curso: Ciência da Computação
 * Disciplina: Paradigmas da Computação
 
