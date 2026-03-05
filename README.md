@@ -113,7 +113,7 @@ jogo-nave/
 
 ---
 
-# 👨‍💻 Autor
+# 👨‍💻 Autores
 
 **Pedro Henrique Likoski Bertha**
 **Guilherme Possenti**
