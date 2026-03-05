@@ -116,6 +116,7 @@ jogo-nave/
 # 👨‍💻 Autores
 
 **Pedro Henrique Likoski Bertha**
+
 **Guilherme Possenti**
 
 * Curso: Ciência da Computação
