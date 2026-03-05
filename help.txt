@@ -1,0 +1,21 @@
+JOGO: NAVE ESPACIAL
+
+Descrição:
+O jogador controla uma nave que deve desviar de obstáculos que
+caem do topo da tela.
+
+Controles:
+A - mover para esquerda
+D - mover para direita
+Q - sair do jogo
+
+Objetivo:
+Sobreviver o máximo possível desviando dos obstáculos.
+
+Como executar:
+
+1. Compilar o código:
+gcc main.c -o jogo
+
+2. Executar:
+jogo.exe ou .\jogo.exe

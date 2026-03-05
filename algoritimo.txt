@@ -1,0 +1,17 @@
+O programa implementa um jogo simples de nave espacial no terminal.
+
+Primeiro é criada uma matriz que representa a tela do jogo. Cada posição
+da matriz representa um caractere exibido na tela.
+
+A nave do jogador fica posicionada na última linha da tela e pode se mover
+para esquerda ou direita.
+
+Durante cada ciclo do jogo:
+1. Um obstáculo pode ser criado aleatoriamente na primeira linha.
+2. Todos os obstáculos existentes são movidos uma linha para baixo.
+3. O jogador escolhe um comando para mover a nave (A ou D).
+4. O programa verifica se houve colisão entre a nave e um obstáculo.
+5. Caso haja colisão, o jogo termina.
+6. Caso contrário, a tela é atualizada e o jogo continua.
+
+A pontuação aumenta a cada rodada sobrevivida pelo jogador.
