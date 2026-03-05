@@ -1,21 +1,77 @@
-JOGO: NAVE ESPACIAL
+JOGO DA NAVE ESPACIAL
 
-Descrição:
-O jogador controla uma nave que deve desviar de obstáculos que
-caem do topo da tela.
+DESCRIÇÃO DO JOGO
 
-Controles:
-A - mover para esquerda
-D - mover para direita
+O jogo da nave espacial é um jogo simples executado no terminal.
+O jogador controla uma nave localizada na parte inferior da tela e
+deve desviar de obstáculos que caem do topo.
+
+Os obstáculos aparecem em posições aleatórias e descem pela tela
+a cada atualização do jogo. O objetivo do jogador é sobreviver o
+maior tempo possível sem colidir com os obstáculos.
+
+A pontuação aumenta conforme o tempo de sobrevivência. O jogo também
+possui um sistema de recorde que guarda a maior pontuação obtida
+durante a execução do programa.
+
+Com o passar do tempo, a velocidade do jogo aumenta, tornando
+o desafio maior.
+
+CONTROLES
+
+A - mover a nave para a esquerda
+D - mover a nave para a direita
 Q - sair do jogo
 
-Objetivo:
-Sobreviver o máximo possível desviando dos obstáculos.
+OBJETIVO
 
-Como executar:
+Desviar dos obstáculos que caem da parte superior da tela e tentar
+alcançar a maior pontuação possível.
 
-1. Compilar o código:
+COMO COMPILAR O PROGRAMA
+
+Para compilar o programa é necessário ter o compilador GCC instalado.
+
+No terminal, navegue até a pasta onde está o arquivo main.c e execute:
+
 gcc main.c -o jogo
 
-2. Executar:
-jogo.exe ou .\jogo.exe
+Isso irá gerar o arquivo executável chamado:
+
+jogo.exe
+
+COMO EXECUTAR O JOGO
+
+Após compilar o programa, execute o seguinte comando no terminal:
+
+.\jogo.exe
+
+O menu inicial será exibido com as opções:
+
+1 - Jogar
+2 - Sair
+
+Digite o número da opção desejada e pressione ENTER.
+
+REQUISITOS DO SISTEMA
+
+Sistema operacional: Windows
+Compilador: GCC (MinGW ou similar)
+Execução: Terminal / Prompt de Comando / PowerShell
+
+OBSERVAÇÃO
+
+Este jogo foi desenvolvido utilizando programação estruturada,
+utilizando conceitos como:
+
+matrizes
+
+estruturas (struct)
+
+laços de repetição (for e while)
+
+condicionais (if e switch)
+
+geração de números aleatórios (rand)
+
+Não foram utilizadas classes, objetos ou bibliotecas gráficas.

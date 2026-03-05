@@ -1,17 +1,97 @@
-O programa implementa um jogo simples de nave espacial no terminal.
+ALGORITMO DO JOGO DA NAVE ESPACIAL
 
-Primeiro é criada uma matriz que representa a tela do jogo. Cada posição
-da matriz representa um caractere exibido na tela.
+1. DESCRIÇÃO GERAL
 
-A nave do jogador fica posicionada na última linha da tela e pode se mover
-para esquerda ou direita.
+O programa implementa um jogo simples executado no terminal. O jogador
+controla uma nave localizada na parte inferior da tela e precisa
+desviar de obstáculos que caem da parte superior.
 
-Durante cada ciclo do jogo:
-1. Um obstáculo pode ser criado aleatoriamente na primeira linha.
-2. Todos os obstáculos existentes são movidos uma linha para baixo.
-3. O jogador escolhe um comando para mover a nave (A ou D).
-4. O programa verifica se houve colisão entre a nave e um obstáculo.
-5. Caso haja colisão, o jogo termina.
-6. Caso contrário, a tela é atualizada e o jogo continua.
+A tela do jogo é representada por uma matriz bidimensional de
+caracteres. Cada posição da matriz representa um espaço da tela.
 
-A pontuação aumenta a cada rodada sobrevivida pelo jogador.
+A nave é representada pelo caractere "^" e os obstáculos pelo
+caractere "O".
+
+O jogo continua em execução até que a nave colida com um obstáculo
+ou o jogador decida sair.
+
+
+2. ESTRUTURAS UTILIZADAS
+
+* Uma matriz bidimensional chamada "tela" para representar o cenário.
+* Uma estrutura chamada "Nave" que armazena a posição horizontal da nave.
+* Variáveis de controle para pontuação, velocidade e estado do jogo.
+
+
+3. FUNCIONAMENTO DO PROGRAMA
+
+O programa inicia executando os seguintes passos:
+
+1. Inicializa o gerador de números aleatórios utilizando o tempo atual.
+
+2. Exibe um menu inicial com as opções:
+    * Jogar
+    * Sair
+
+3. O usuário escolhe uma opção. 
+
+Se o usuário escolher jogar, o programa executa a lógica do jogo.
+
+4. LÓGICA PRINCIPAL DO JOGO
+
+A execução do jogo acontece dentro de um laço de repetição (while),
+que representa o ciclo do jogo.
+
+A cada repetição do ciclo são realizados os seguintes passos:
+
+1. Limpar a tela do terminal.
+2. Mover todos os obstáculos existentes uma linha para baixo.
+3. Gerar novos obstáculos na primeira linha da matriz em posições aleatórias.
+4. Verificar se existe um obstáculo na mesma posição da nave.
+5. Se houver colisão, o jogo termina.
+6. Desenhar a tela do jogo utilizando a matriz.
+7. Mostrar a pontuação atual e o recorde.
+8. Verificar se o jogador pressionou alguma tecla.
+
+Se o jogador pressionar:
+
+* A → a nave se move para a esquerda
+* D → a nave se move para a direita
+* Q → o jogo é encerrado
+
+9. Incrementar a pontuação do jogador.
+10. Aumentar a dificuldade diminuindo o tempo de espera entre os ciclos.
+11. Esperar alguns milissegundos antes da próxima atualização.
+
+
+5. DETECÇÃO DE COLISÃO
+
+A colisão ocorre quando existe um obstáculo na mesma posição da nave
+na última linha da matriz.
+
+Se isso acontecer:
+
+* o jogo é encerrado
+* a pontuação final é exibida
+* o recorde é atualizado caso necessário
+
+
+6. FIM DO JOGO
+
+Após o término do jogo, o programa retorna ao menu principal,
+permitindo que o jogador inicie uma nova partida ou saia do programa.
+
+
+7. CONCEITOS UTILIZADOS
+
+O programa utiliza conceitos da programação estruturada, como:
+
+* matrizes para representar a tela
+* estruturas (struct) para organizar dados
+* laços de repetição (for e while)
+* estruturas condicionais (if e switch)
+* geração de números aleatórios
+* entrada e saída no terminal
+
+Não foram utilizados conceitos de programação orientada a objetos
+como classes ou objetos.
