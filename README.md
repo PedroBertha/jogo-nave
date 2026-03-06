@@ -1,4 +1,4 @@
-# 🚀 Jogo da Nave Espacial (Terminal)
+#  Jogo da Nave Espacial (Terminal)
 
 Este projeto foi desenvolvido como trabalho para a disciplina de **Paradigmas da Computação**.
 O objetivo foi criar um jogo utilizando **programação estruturada em C**, respeitando as restrições da atividade.
@@ -7,7 +7,7 @@ O jogo é executado diretamente no **terminal** e consiste em controlar uma nave
 
 ---
 
-# 🎮 Como funciona o jogo
+#  Como funciona o jogo
 
 O jogador controla uma nave localizada na parte inferior da tela.
 Obstáculos aparecem aleatoriamente no topo e descem a cada atualização do jogo.
@@ -18,7 +18,7 @@ A pontuação aumenta com o tempo e o jogo fica **progressivamente mais rápido*
 
 ---
 
-# 🕹️ Controles
+#  Controles
 
 | Tecla | Ação                     |
 | ----- | ------------------------ |
@@ -45,7 +45,7 @@ Recorde: 40
 
 ---
 
-# ⚙️ Como compilar
+#  Como compilar
 
 É necessário ter o **GCC** instalado.
 
@@ -63,7 +63,7 @@ jogo.exe
 
 ---
 
-# ▶️ Como executar
+#  Como executar
 
 No Windows PowerShell:
 
@@ -79,7 +79,7 @@ jogo.exe
 
 ---
 
-# 📚 Conceitos utilizados
+#  Conceitos utilizados
 
 O projeto foi desenvolvido utilizando apenas conceitos de **programação estruturada**, incluindo:
 
@@ -99,7 +99,7 @@ Não foram utilizados:
 
 ---
 
-# 📂 Estrutura do projeto
+#  Estrutura do projeto
 
 ```
 jogo-nave/
@@ -113,7 +113,7 @@ jogo-nave/
 
 ---
 
-# 👨‍💻 Autores
+#  Autores
 
 **Pedro Henrique Likoski Bertha**
 
