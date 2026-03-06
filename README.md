@@ -28,7 +28,7 @@ A pontuação aumenta com o tempo e o jogo fica **progressivamente mais rápido*
 
 ---
 
-# 🖥️ Exemplo do jogo no terminal
+#  Exemplo do jogo no terminal
 
 ```
 ################################
